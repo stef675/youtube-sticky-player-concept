@@ -2,6 +2,8 @@
 
 Created by Molham Stef
 
+![Project Screenshot](YouTube-Desktop-UX-Improvement.png.png)
+
 ## Live Demo
 
 https://stef675.github.io/youtube-sticky-player-concept/
