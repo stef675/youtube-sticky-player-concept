@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>YouTube Sticky Player Concept</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="logo">▶ YouTube</div>
+    <input class="search" type="text" placeholder="Search" />
+    <div class="icons">🔔 👤</div>
+  </header>
+
+  <main class="layout">
+    <section class="video-area">
+      <div class="sticky-player">
+        <div class="video-box">
+          <div class="play">▶</div>
+          <p>Current Video</p>
+        </div>
+
+        <h2>How to Build Web Apps from Scratch</h2>
+
+        <div class="actions">
+          <button>👍 Like</button>
+          <button>Share</button>
+          <button class="subscribe">Subscribe</button>
+        </div>
+
+        <p class="description">
+          This concept keeps the video player visible while the user browses recommended videos.
+        </p>
+      </div>
+    </section>
+
+    <aside class="recommendations">
+      <div class="badge">Sticky Video Player</div>
+      <h3>Recommended Videos</h3>
+
+      <div id="videoList"></div>
+    </aside>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
